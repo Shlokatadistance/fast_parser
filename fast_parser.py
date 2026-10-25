@@ -61,9 +61,14 @@ def not_threaded(file_path:str):
     print(f"Net execution time is {time.perf_counter()-start:.6f}")
 
 
-
         # f.read() loads in memory directly
         # we're going to try a basic implementation of splitting the load across 4 threads.
+
+
+
+
+
+
 
 if __name__ == "__main__":
     #stream_bytes("/opt/freep/prices.csv")
